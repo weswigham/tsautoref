@@ -1,0 +1,26 @@
+{
+  "name": "tsautoref",
+  "version": "0.0.1",
+  "description": "Automatically generate tsconfigs from a base tsconfig and a collection of packages",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc --watch -p ./tsconfig.json"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "globby": "^8.0.1",
+    "typescript": "^3.1.0-dev.20180725"
+  },
+  "directories": {
+    "lib": "lib",
+    "bin": "lib/bin"
+  },
+  "devDependencies": {
+    "@types/globby": "^8.0.0",
+    "@types/node": "^10.5.3"
+  }
+}
