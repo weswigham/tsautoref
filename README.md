@@ -2,7 +2,8 @@
 
 ## Usage
 
-1. `npm i -g tsautoref`
+1. Install the executable: `npm i -g tsautoref`
+    * For local development: `npm i` and `npm link` 
 2. `tsref [./path/to/monorepo]`
 3. `tsc -b ./path/to/monoreop/tsconfig.build.json`
 
